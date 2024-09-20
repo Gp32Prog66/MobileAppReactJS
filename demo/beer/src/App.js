@@ -3,6 +3,8 @@ import './App.css';
 import './components/salve'
 import Salve from './components/salve';
 import React from 'react';
+import GitHubLink from './components/ghLink';
+
 
 
 
@@ -12,6 +14,10 @@ function App() {
       <Salve/>
       
       <Salve name = "Joe" />
+
+      <GitHubLink/>
+
+
     </div>
   
 
