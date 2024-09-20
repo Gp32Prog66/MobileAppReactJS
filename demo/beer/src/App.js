@@ -2,6 +2,9 @@
 import './App.css';
 import './components/salve'
 import Salve from './components/salve';
+import React from 'react';
+
+
 
 function App() {
   return (
@@ -10,6 +13,8 @@ function App() {
       
       <Salve name = "Joe" />
     </div>
+  
+
   );
 }
 
